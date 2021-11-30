@@ -8,3 +8,4 @@ Among them:
 * [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) (`mean`)
 * [Reverse Integer](https://leetcode.com/problems/reverse-integer/) (`reverseint`)
 * [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) (`zigzagconv`)
+* [Palindrome Number](https://leetcode.com/problems/palindrome-number) (`palindromeint`)
