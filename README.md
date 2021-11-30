@@ -10,3 +10,4 @@ Among them:
 * [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) (`zigzagconv`)
 * [Palindrome Number](https://leetcode.com/problems/palindrome-number) (`palindromeint`)
 * [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) (`sudokuvalidator`)
+* [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group) (`linkedlist/kreverse`)
