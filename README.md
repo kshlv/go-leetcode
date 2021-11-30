@@ -9,3 +9,4 @@ Among them:
 * [Reverse Integer](https://leetcode.com/problems/reverse-integer/) (`reverseint`)
 * [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) (`zigzagconv`)
 * [Palindrome Number](https://leetcode.com/problems/palindrome-number) (`palindromeint`)
+* [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) (`sudokuvalidator`)
