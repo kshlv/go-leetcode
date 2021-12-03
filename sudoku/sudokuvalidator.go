@@ -1,13 +1,13 @@
-// Package sudokuvalidator implements a simple validation of
+// Package sudoku implements a simple validation of
 // a sudoku matrix 9x9
 //
 // Original problem:
 // https://leetcode.com/problems/valid-sudoku/
-package sudokuvalidator
+package sudoku
 
-// Check has an actual signature of
+// Validate has an actual signature of
 // isValidSudoku(board [][]byte) bool
-func Check(board [][]byte) bool {
+func Validate(board [][]byte) bool {
 	for _, row := range board {
 		m := map[byte]bool{}
 		for _, b := range row {

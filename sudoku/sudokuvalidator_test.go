@@ -1,4 +1,4 @@
-package sudokuvalidator
+package sudoku
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestCheck(t *testing.T) {
+func TestValidate(t *testing.T) {
 	testcases := []struct {
 		board    [][]byte
 		expected bool
@@ -30,7 +30,7 @@ func TestCheck(t *testing.T) {
 
 	for _, tc := range testcases {
 		t.Run(fmt.Sprintf(""), func(t *testing.T) {
-			assert.Equal(t, tc.expected, Check(tc.board))
+			assert.Equal(t, tc.expected, Validate(tc.board))
 		})
 	}
 }
